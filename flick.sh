@@ -3,13 +3,14 @@
 # Finds and deletes Ralph intermediary files (prd.json, progress.txt).
 # Run this from your project directory after a successful Ralph run.
 #
-# Usage: bash /path/to/ralph/flick.sh [--nuke]
+# Usage: bash /path/to/ralph/flick.sh [--nuke|--all]
 #   --nuke  Skip confirmation prompts and delete all files immediately
+#   --all   Alias for --nuke
 
 nuke=false
 project_dir="${PWD}"
 
-[[ "$1" == "--nuke" ]] && nuke=true
+[[ "$1" == "--nuke" || "$1" == "--all" ]] && nuke=true
 
 search_dirs=(
   "${project_dir}"
