@@ -14,6 +14,7 @@ project_dir="${PWD}"
 
 search_dirs=(
   "${project_dir}"
+  "${project_dir}/tasks"
   "${project_dir}/ralph"
   "${project_dir}/.agents/ralph"
   "${project_dir}/.claude/ralph"

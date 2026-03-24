@@ -15,11 +15,12 @@ Finds and removes `prd.json` and `progress.txt` left behind by a Ralph run.
 Search for Ralph intermediary files in the following locations (relative to the current project directory, and at the user level):
 
 1. `{project_root}/`
-2. `{project_root}/ralph/`
-3. `{project_root}/.agents/ralph/`
-4. `{project_root}/.claude/ralph/`
-5. `~/.agents/ralph/`
-6. `~/.claude/ralph/`
+2. `{project_root}/tasks/`
+3. `{project_root}/ralph/`
+4. `{project_root}/.agents/ralph/`
+5. `{project_root}/.claude/ralph/`
+6. `~/.agents/ralph/`
+7. `~/.claude/ralph/`
 
 Where `{project_root}` is the root of the current project (the working directory).
 
