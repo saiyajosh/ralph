@@ -17,9 +17,13 @@ search_dirs=(
   "${project_dir}/tasks"
   "${project_dir}/ralph"
   "${project_dir}/.agents/ralph"
+  "${project_dir}/.agents/skills/ralph"
   "${project_dir}/.claude/ralph"
+  "${project_dir}/.claude/skills/ralph"
   "${HOME}/.agents/ralph"
+  "${HOME}/.agents/skills/ralph"
   "${HOME}/.claude/ralph"
+  "${HOME}/.claude/skills/ralph"
 )
 
 found_any=false

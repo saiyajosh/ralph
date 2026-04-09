@@ -18,9 +18,13 @@ Search for Ralph intermediary files in the following locations (relative to the 
 2. `{project_root}/tasks/`
 3. `{project_root}/ralph/`
 4. `{project_root}/.agents/ralph/`
-5. `{project_root}/.claude/ralph/`
-6. `~/.agents/ralph/`
-7. `~/.claude/ralph/`
+5. `{project_root}/.agents/skills/ralph/`
+6. `{project_root}/.claude/ralph/`
+7. `{project_root}/.claude/skills/ralph/`
+8. `~/.agents/ralph/`
+9. `~/.agents/skills/ralph/`
+10. `~/.claude/ralph/`
+11. `~/.claude/skills/ralph/`
 
 Where `{project_root}` is the root of the current project (the working directory).
 
